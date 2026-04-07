@@ -12,21 +12,44 @@
 
 </div>
 
+
+---
+
+
 ## 🚀 About Me
 
-Hi there! 👋 I’m Tanjim, a passionate Frontend Developer dedicated to crafting clean, performant, and visually stunning web experiences. I specialize in turning complex ideas into intuitive, user centric interfaces while continuously expanding my knowledge in backend systems and modern web technologies.
+> *"Code smart, design beautifully, and always push the boundaries."*
 
- What drives me: I strive to create digital solutions that go beyond the ordinary, blending creativity with technical precision. Every line of code I write is purposeful, scalable, and elegant.
+I'm a **passionate Frontend Developer** dedicated to crafting **clean, performant, and visually stunning** web experiences. I specialize in turning complex ideas into **intuitive, user-centric interfaces**  while continuously expanding into backend systems and modern web technologies.
 
- What I love building:
+What drives me? I strive to create digital solutions that go **beyond the ordinary**, blending creativity with technical precision. Every line of code I write is `purposeful`, `scalable`, and `elegant`.
 
-Responsive, high-performance web applications
-Interactive UI components and animations
-Unique, futuristic digital experiences
+---
 
- My philosophy: “Code smart, design beautifully, and always push the boundaries.”
+##  What I Love Building
 
-Let’s connect, collaborate, and turn ideas into exceptional web experiences.
+- 🌐 **Responsive, high-performance** web applications
+- 🎨 **Interactive UI components** and animations
+- ✨ **Unique, futuristic** digital experiences
+
+---
+
+##  My Stack & Interests
+
+```text
+Frontend   →  HTML · CSS · JavaScript · React
+Styling    →  Tailwind CSS · DaisyUI · GSAP · Framer Motion
+Tools      →  Git · VS Code · Figma
+Currently  →  Leveling up in Backend & System Design
+```
+
+---
+
+##  Let's Connect
+
+I'm always open to **collaborating**, **contributing**, and turning ideas into **exceptional web experiences**.
+
+>  *Feel free to reach out — let's build something great together.*
 
 <hr />
 
