@@ -36,12 +36,9 @@ What drives me? I strive to create digital solutions that go **beyond the ordina
 
 ##  My Stack & Interests
 
-```text
-Frontend   →  HTML · CSS · JavaScript · React
-Styling    →  Tailwind CSS · DaisyUI · GSAP · Framer Motion
-Tools      →  Git · VS Code · Figma
-Currently  →  Leveling up in Backend & System Design
-```
+<p align="center">
+  <img src="./assets/stack.svg" />
+</p>
 
 ---
 
