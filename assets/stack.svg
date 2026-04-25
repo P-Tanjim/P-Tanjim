@@ -1,0 +1,175 @@
+<svg width="900" height="560" viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">My Stack &amp; Interests</title>
+  <desc id="desc">A clean diagram showing frontend, styling, tools, and currently learning topics.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b2335"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#8b5cf6" flood-opacity="0.18"/>
+    </filter>
+
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#94a3b8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+
+    <style>
+      .bgGrid { stroke: rgba(148,163,184,0.08); stroke-width: 1; }
+      .title { font: 700 18px 'Segoe UI', system-ui, sans-serif; fill: #ffffff; }
+      .subtitle { font: 500 12px 'Segoe UI', system-ui, sans-serif; fill: #94a3b8; }
+      .sectionTitle { font: 700 14px 'Segoe UI', system-ui, sans-serif; fill: #ffffff; }
+      .itemText { font: 500 12px 'Segoe UI', system-ui, sans-serif; fill: #ffffff; }
+      .connector { stroke: #64748b; stroke-width: 1.2; fill: none; }
+      .thin { stroke: #475569; stroke-width: 0.9; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="560" rx="18" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.55">
+    <path class="bgGrid" d="M60 70H840"/>
+    <path class="bgGrid" d="M60 140H840"/>
+    <path class="bgGrid" d="M60 210H840"/>
+    <path class="bgGrid" d="M60 280H840"/>
+    <path class="bgGrid" d="M60 350H840"/>
+    <path class="bgGrid" d="M60 420H840"/>
+    <path class="bgGrid" d="M60 490H840"/>
+
+    <path class="bgGrid" d="M120 40V520"/>
+    <path class="bgGrid" d="M260 40V520"/>
+    <path class="bgGrid" d="M400 40V520"/>
+    <path class="bgGrid" d="M540 40V520"/>
+    <path class="bgGrid" d="M680 40V520"/>
+    <path class="bgGrid" d="M820 40V520"/>
+  </g>
+
+  <!-- Main title card -->
+  <g filter="url(#softGlow)">
+    <rect x="300" y="26" width="300" height="54" rx="14" fill="#7c3aed"/>
+  </g>
+  <text x="450" y="53" text-anchor="middle" dominant-baseline="central" class="title">🛠️ My Stack &amp; Interests</text>
+  <text x="450" y="75" text-anchor="middle" dominant-baseline="central" class="subtitle">A compact overview of what I build with and what I am learning</text>
+
+  <!-- spine -->
+  <path d="M450 80V112" class="connector" marker-end="url(#arrow)"/>
+  <path d="M170 112H730" class="connector"/>
+
+  <circle cx="170" cy="112" r="3.5" fill="#64748b"/>
+  <circle cx="350" cy="112" r="3.5" fill="#64748b"/>
+  <circle cx="530" cy="112" r="3.5" fill="#64748b"/>
+  <circle cx="710" cy="112" r="3.5" fill="#64748b"/>
+
+  <path d="M170 116V136" class="connector" marker-end="url(#arrow)"/>
+  <path d="M350 116V136" class="connector" marker-end="url(#arrow)"/>
+  <path d="M530 116V136" class="connector" marker-end="url(#arrow)"/>
+  <path d="M710 116V136" class="connector" marker-end="url(#arrow)"/>
+
+  <!-- Column template -->
+  <!-- Frontend -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="136" width="200" height="56" rx="14" fill="#1d4ed8"/>
+  </g>
+  <text x="170" y="164" text-anchor="middle" dominant-baseline="central" class="sectionTitle">Frontend</text>
+  <text x="170" y="181" text-anchor="middle" dominant-baseline="central" class="subtitle">Core interface stack</text>
+
+  <path d="M170 192V214" class="connector" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="80" y="214" width="180" height="36" rx="10" fill="#163b9a"/>
+    <text x="170" y="232" text-anchor="middle" dominant-baseline="central" class="itemText">HTML</text>
+
+    <path d="M170 250V262" class="thin"/>
+    <rect x="80" y="262" width="180" height="36" rx="10" fill="#163b9a"/>
+    <text x="170" y="280" text-anchor="middle" dominant-baseline="central" class="itemText">CSS</text>
+
+    <path d="M170 298V310" class="thin"/>
+    <rect x="80" y="310" width="180" height="36" rx="10" fill="#163b9a"/>
+    <text x="170" y="328" text-anchor="middle" dominant-baseline="central" class="itemText">JavaScript</text>
+
+    <path d="M170 346V358" class="thin"/>
+    <rect x="80" y="358" width="180" height="36" rx="10" fill="#163b9a"/>
+    <text x="170" y="376" text-anchor="middle" dominant-baseline="central" class="itemText">React</text>
+
+    <path d="M170 394V406" class="thin"/>
+    <rect x="80" y="406" width="180" height="36" rx="10" fill="#163b9a"/>
+    <text x="170" y="424" text-anchor="middle" dominant-baseline="central" class="itemText">Next.js</text>
+  </g>
+
+  <!-- Styling & Animation -->
+  <g filter="url(#shadow)">
+    <rect x="300" y="136" width="300" height="56" rx="14" fill="#9a3412"/>
+  </g>
+  <text x="450" y="164" text-anchor="middle" dominant-baseline="central" class="sectionTitle">Styling &amp; Animation</text>
+  <text x="450" y="181" text-anchor="middle" dominant-baseline="central" class="subtitle">Visual polish and motion</text>
+
+  <path d="M450 192V214" class="connector" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="330" y="214" width="240" height="36" rx="10" fill="#7c2d12"/>
+    <text x="450" y="232" text-anchor="middle" dominant-baseline="central" class="itemText">Tailwind CSS</text>
+
+    <path d="M450 250V262" class="thin"/>
+    <rect x="330" y="262" width="240" height="36" rx="10" fill="#7c2d12"/>
+    <text x="450" y="280" text-anchor="middle" dominant-baseline="central" class="itemText">DaisyUI</text>
+
+    <path d="M450 298V310" class="thin"/>
+    <rect x="330" y="310" width="240" height="36" rx="10" fill="#7c2d12"/>
+    <text x="450" y="328" text-anchor="middle" dominant-baseline="central" class="itemText">GSAP</text>
+
+    <path d="M450 346V358" class="thin"/>
+    <rect x="330" y="358" width="240" height="36" rx="10" fill="#7c2d12"/>
+    <text x="450" y="376" text-anchor="middle" dominant-baseline="central" class="itemText">Framer Motion</text>
+  </g>
+
+  <!-- Tools -->
+  <g filter="url(#shadow)">
+    <rect x="610" y="136" width="220" height="56" rx="14" fill="#0f766e"/>
+  </g>
+  <text x="720" y="164" text-anchor="middle" dominant-baseline="central" class="sectionTitle">Tools</text>
+  <text x="720" y="181" text-anchor="middle" dominant-baseline="central" class="subtitle">Workflow essentials</text>
+
+  <path d="M710 192V214" class="connector" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="630" y="214" width="180" height="36" rx="10" fill="#115e59"/>
+    <text x="720" y="232" text-anchor="middle" dominant-baseline="central" class="itemText">Git</text>
+
+    <path d="M720 250V262" class="thin"/>
+    <rect x="630" y="262" width="180" height="36" rx="10" fill="#115e59"/>
+    <text x="720" y="280" text-anchor="middle" dominant-baseline="central" class="itemText">VS Code</text>
+
+    <path d="M720 298V310" class="thin"/>
+    <rect x="630" y="310" width="180" height="36" rx="10" fill="#115e59"/>
+    <text x="720" y="328" text-anchor="middle" dominant-baseline="central" class="itemText">Figma</text>
+  </g>
+
+  <!-- Currently Learning -->
+  <g filter="url(#shadow)">
+    <rect x="300" y="450" width="300" height="56" rx="14" fill="#d97706"/>
+  </g>
+  <text x="450" y="478" text-anchor="middle" dominant-baseline="central" class="sectionTitle">Currently Learning</text>
+  <text x="450" y="495" text-anchor="middle" dominant-baseline="central" class="subtitle">What I am leveling up next</text>
+
+  <path d="M450 450V438" class="connector" marker-end="url(#arrow)"/>
+  <path d="M450 438H450" class="connector"/>
+
+  <g>
+    <rect x="330" y="392" width="240" height="36" rx="10" fill="#b45309"/>
+    <text x="450" y="410" text-anchor="middle" dominant-baseline="central" class="itemText">Backend Dev</text>
+
+    <path d="M450 428V440" class="thin"/>
+    <rect x="330" y="440" width="240" height="36" rx="10" fill="#b45309"/>
+    <text x="450" y="458" text-anchor="middle" dominant-baseline="central" class="itemText">System Design</text>
+  </g>
+</svg>
